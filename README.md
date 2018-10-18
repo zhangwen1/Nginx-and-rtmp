@@ -4,6 +4,9 @@ Nginx
 
 
 cd nginx-1.8.1
+
 ./configure --add-module=../nginx-rtmp-module
+
 make
+
 sudo make install
